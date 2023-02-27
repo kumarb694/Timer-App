@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="grandparent">
+
+    
+        <div class="parent">
+            <div class="heading">
+                <div class="timerapp">
+                    Timer App
+                </div>
+            </div>
+            <div class="displayparent">
+                <div class="hh">
+                    <input type="number" id="h" placeholder="Hour [0-∞]" min="0" value=0>
+                    HH
+                </div>
+                <div class="mm">
+                    <input type="number" id="m" placeholder="Minute [0-59]" min="0" max="59" value=0>
+                    MM
+                </div>
+                <div class="ss">
+                    <input type="number" id="s" placeholder="Second [0-59]" min="0" max="59" value=0>
+                    SS
+                </div>
+            </div>
+            <div class="settingparent">
+                <div class="start">
+                    <button id="st">start/continue</button>
+                </div>
+                <div class="pause">
+                    <button id="pa">pause</button>
+                </div>
+                <div class="reset">
+                    <button id="re">reset</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
